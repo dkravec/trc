@@ -1,0 +1,156 @@
+
+html {
+    font-family: "Helvetica neue", sans-serif;
+    scroll-behavior: smooth;
+}
+html,body {
+    margin: 0;
+    width: 100%;
+}
+body {
+    color: white;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 30);
+}
+.subCall {
+    padding-left: 20px;
+}
+h1 {
+    color: #e6e6e6;
+}
+p {
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+
+}
+a {
+    color: rgb(201, 201, 201);
+    font-size: 16px;
+}
+.main {
+    padding-top: 60px;
+    margin: 20px;
+}
+.footer-padding {
+  padding-bottom: 25px;
+}
+.footer {
+  background-color: rgb(44, 44, 46, 0.95);
+  padding: 5px;
+  width: 100%;
+  border-top: 2px solid rgba(39, 113, 240, 0.9);
+  bottom: 0;
+  position: fixed;
+  display: block;
+  text-align: center;
+  height: 20px;
+}
+.nav { 
+    background-color: rgb(44, 44, 46, 0.95);
+    padding: 20px;
+    width: 100%;
+    border-bottom: 2px solid rgba(39, 113, 240, 0.9);
+    top: 0;
+    position: fixed;
+    display: block;
+    text-align: center;
+    height: 40px;
+}
+.nav a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;    
+}
+.nav a:hover {
+    color:rgba(39, 113, 240, 0.9);
+}
+.activeNav {
+    color:red;
+}
+.call {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:  rgb(44, 44, 46);
+    border: 2px solid rgb(107, 107, 107);
+    box-shadow: 0px 0px 15px rgba(17, 17, 18, 0.9);
+    border-radius: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 5%;
+    padding-left: 5%;
+    text-align: center;
+    align-items: center;
+    float: center; 
+    margin-bottom: 5%;
+}
+.call.all {
+    text-align: left;
+}
+
+/*Small screens goes burrrr*/
+@media only screen and (max-width: 802px) {
+    .nav { 
+        height: 80px;
+    }
+    .main {
+        padding-top: 100px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 463px) {
+    .nav { 
+        height: 120px;
+    }
+    .main {
+        padding-top: 140px;
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 338px) {
+    .nav { 
+        height: 160px;
+    }
+    .main {
+        padding-top: 180px;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 296px) {
+    .nav { 
+        height: 200px;
+    }
+    .main {
+        padding-top: 220px;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 182px) {
+    .nav { 
+        height: 280px;
+    }
+    .main {
+        padding-top: 300px;
+        margin: 20px;
+    }
+}
+@media only screen and (max-width: 117px) {
+    .nav { 
+        height: 380px;
+    }
+    .main {
+        padding-top: 400px;
+        margin: 20px;
+    }
+}
